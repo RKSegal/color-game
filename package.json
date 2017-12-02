@@ -1,0 +1,28 @@
+{
+  "name": "color-game",
+  "version": "1.0.0",
+  "description": "Node.js game for guessing the correct RGB color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RKSegal/color-game.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Javascript",
+    "rgb",
+    "rachel"
+  ],
+  "author": "Rachel Segal @RKSegal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RKSegal/color-game/issues"
+  },
+  "homepage": "https://github.com/RKSegal/color-game#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
