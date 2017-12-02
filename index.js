@@ -3,10 +3,10 @@ const path = require('path');
 const app = express();
 const PORT = 4000;
 
-app.use('/static', express.static('public'));
+app.use('/public', express.static('public'));
 
 app.get('/', (req, res) => {
-	const htmlPath = path.join(__dirname+'/public/index2.html');
+	const htmlPath = path.join(__dirname+'/public/colorGame.html');
 	console.log(htmlPath);
 	res.sendFile(htmlPath);
 });
