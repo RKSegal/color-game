@@ -8,3 +8,5 @@ guess the correct rgb color - node.js backend using plain javascript
 ## Client
   - just plain Javascript
 
+## How to run
+  - type `npm start`
